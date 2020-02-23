@@ -1,0 +1,12 @@
+cmd = "path-to-go-shadowsocks2"
+verbose = false
+
+[server]
+ip = "0.0.0.0"
+timeout = "5m"
+method = "aes-256-gcm"
+fast_open = true
+
+[server.port_password]
+2001 = "PASSWORD"
+2002 = "PASSWORD"
